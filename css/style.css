@@ -1,0 +1,85 @@
+/*
+Background image for the whole webpage. It changes based on the weather.
+*/
+body {
+  background: url("https://img12.deviantart.net/e307/i/2011/114/5/4/sunny_cloudy_sky_by_cyperm-d3eqocg.jpg")
+    no-repeat
+    center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 25%;
+}
+/*
+Style for webpage title element.
+*/
+#title {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80px;
+  color: black;
+}
+
+/*
+Style for the temperature box itself, not its contents.
+*/
+#temperature-block {
+  text-align: center;
+}
+
+/*
+Style for the temperature number.
+*/
+#temp-value {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80px;
+  color: black;
+}
+
+/*
+Style for the units.
+*/
+
+#temp-unit {
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 80px;
+  background: none;
+  border: none;
+  margin-top: -4.7px;
+}
+button:focus {
+  outline: 0 !important;
+}
+/*
+Style for the weather icon div.
+*/
+#weather-icon-block {
+  text-align: center;
+}
+
+/*
+Style for the weather icon itself.
+*/
+#weather-icon {
+  width: 110px;
+  height: 110px;
+}
+
+/*
+Style for the location block
+*/
+#location-block {
+  text-align: center;
+}
+
+/*
+Style for the location. City and state
+*/
+#location {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  color: black;
+}
